@@ -8,10 +8,10 @@ Parameters:
 # The name of the crawler to be created
   CFNCrawlerName:  
     Type: String
-    Default: cfn-crawler-flights-1
+    Default: cfn-crawler-toronto-dataset
   CFNDatabaseName:
     Type: String
-    Default: cfn-database-flights-1
+    Default: cfn-database-toronto-1
   CFNTablePrefixName:
     Type: String
     Default: cfn_sample_1_	
