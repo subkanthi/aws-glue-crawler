@@ -18,3 +18,9 @@ Use the following command to create stack from template.
 ```html
 aws cloudformation create-stack --stack-name mystackcli1 --template-body file://./hello-cloudformation.json --debug
 ```
+
+If you experience the following error when running create-stack, make sure the user
+has IAM permission setup properly.
+```html
+InsufficientCapabilitiesException: An error occurred (InsufficientCapabilitiesException) when calling the CreateStack operation: Requires capabilities : [CAPABILITY_IAM]
+```
