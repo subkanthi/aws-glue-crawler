@@ -13,3 +13,8 @@ Use the following command to list the current cloudformation templates supported
 ```html
 aws cloudformation list-stacks
 ```
+
+Use the following command to create stack from template.
+```html
+aws cloudformation create-stack --stack-name mystackcli1 --template-body file://./hello-cloudformation.json --debug
+```
